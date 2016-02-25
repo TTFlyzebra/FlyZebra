@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">test</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu01">车载导航</string>
+    <string name="menu02">蓝牙电话</string>
+    <string name="menu03">雷达测速</string>
+    <string name="menu04">行车记录</string>
+    <string name="menu05">轨迹回放</string>
+    <string name="menu06">影音娱乐</string>
+    <string name="menu07">系统配置</string>
+
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000" >
+
+    <com.flyzebra.test.customui.RotateImage
+        android:id="@+id/iv_direction"
+        android:layout_width="180px"
+        android:layout_height="180px"
+        android:layout_marginLeft="52px"
+        android:layout_marginTop="131px"
+        android:src="@drawable/c_01" />
+
+    <ImageView
+        android:layout_width="279px"
+        android:layout_height="279px"
+        android:layout_marginLeft="260px"
+        android:layout_marginTop="100px"
+        android:src="@drawable/c_02" />
+
+    <ImageView
+        android:id="@+id/iv_exit"
+        android:layout_width="180px"
+        android:layout_height="180px"
+        android:layout_marginLeft="568px"
+        android:layout_marginTop="131px"
+        android:src="@drawable/c_03" />
+
+    <com.flyzebra.test.customui.RotateImage
+        android:id="@+id/needls_01"
+        android:layout_width="217px"
+        android:layout_height="217px"
+        android:layout_marginLeft="293px"
+        android:layout_marginTop="132px"
+        android:scaleType="fitCenter"
+        android:src="@drawable/needle02" />
+
+    <!-- ImageView
+        android:id="@+id/needls_cir"
+        android:layout_width="47px"
+        android:layout_height="47px"
+        android:layout_marginLeft="377px"
+        android:layout_marginTop="216px"
+        android:src="@drawable/cir_08" /-->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="800px"
+        android:layout_height="35px"
+        android:gravity="center_vertical"
+        android:paddingLeft="10px"
+        android:text="NINISS"
+        android:textColor="#FFF"
+        android:textSize="22px" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="800px"
+        android:layout_height="35px"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:textSize="22px" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="800px"
+        android:layout_height="35px"
+        android:gravity="right"
+        android:paddingRight="10px"
+        android:textColor="#FFF"
+        android:textSize="22px" />
+
+    <TextView
+        android:id="@+id/tv_speed"
+        android:layout_width="45px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="355px"
+        android:layout_marginTop="317px"
+        android:gravity="right"
+        android:paddingRight="2px"
+        android:text="120"
+        android:textColor="#50EFFF"
+        android:textSize="20px" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="400px"
+        android:layout_marginTop="322px"
+        android:gravity="left"
+        android:singleLine="true"
+        android:text="km/h"
+        android:textColor="#50EFFF"
+        android:textSize="15px" />
+
+    <TextView
+        android:id="@+id/tv_direction"
+        android:layout_width="180px"
+        android:layout_height="180px"
+        android:layout_marginLeft="52px"
+        android:layout_marginTop="131px"
+        android:gravity="center"
+        android:text="0°"
+        android:textColor="#FF0000"
+        android:textSize="20px" />
+
+</FrameLayout>
